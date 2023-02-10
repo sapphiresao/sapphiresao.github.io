@@ -108,3 +108,138 @@ a:link {
   img {
     -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
   }
+
+footer {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+}
+
+footer ul {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+footer ul li {
+  margin: 0 10px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main_content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.main_content > div {
+  background-color: #eee;
+  padding: 20px;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+@media (max-width: 767px) {
+  .main-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.main-content > div {
+  background-color: #eee;
+  padding: 20px;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+@media (max-width: 767px) {
+  .main-content {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .main-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .main-content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.main-content > div {
+  background-color: #eee;
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+@media (max-width: 767px) {
+  img {
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  img {
+    max-width: 75%;
+  }
+}
+
+@media (min-width: 992px) {
+  img {
+    max-width: 100%;
+  }
+}
+
+h1 {
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 992px) {
+  h1 {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 32px;
+  }
+}
